@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'mango';
+    src: url(MangoGrotesque-Regular.ttf);
+}
+
+*{
+    color: white;
+}
+
+
+
+
+header{ 
+    display: flex; 
+    justify-content: center;
+    background: black;
+    align-items: center;
+    box-sizing: border-box;
+    top: 0;
+    font-size: 15px;
+}
+
+nav{ 
+    position: relative;
+    width: 330px;
+    height: 50px; 
+    background: black;
+    border-radius: 8px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding:0  23px;
+    z-index: 1;
+}
+
+nav span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100%;
+    background: linear-gradient(45deg, black, #fb4566);
+    border-radius: 24px;
+    transition: .5s;
+}
+
+nav a:nth-child(1):hover~span{
+    left: 0; 
+}
+
+nav a:nth-child(2):hover~span{
+    left: 78px; 
+}
+
+nav a:nth-child(3):hover~span{
+    left: 157px; 
+}
+
+nav a:nth-child(4):hover~span{
+    left: 237px; 
+}
+
+
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'mango';
+    text-shadow: 7px 0 0#fb4566;
+}
+
+section{ 
+    text-align: center;
+    width: 70%;
+    margin: 70px 0 0 15%;
+    border: solid #fb4566
+
+}
+
+h2{
+    padding: 0 0 0 0;
+    text-shadow: 3px 0 0 #fb4566;
+    font-family: mango;
+    font-size: 25px;
+}
+
+.h1{
+    border: none,
+
+}
+
+.copyright{
+    background-color: #2f2f2f;
+    height: 200px;
+    width: 100%;
+    margin: 100px 0 0 0;
+
+}
+
+.copy{
+    text-align: center;
+    margin: -150px 0 0 0;
+    font-family: mango;
+    font-size: 30px;
+}

@@ -1,0 +1,463 @@
+@font-face {
+    font-family: 'mango';
+    src: url(MangoGrotesque-Regular.ttf);
+
+}
+
+*{
+    color: white;
+}
+
+
+
+
+header{
+    display: flex; 
+    justify-content: center;
+    background: black;
+    align-items: center;
+    box-sizing: border-box;
+    top: 0;
+    font-size: 15px;
+}
+
+nav{ 
+    position: relative;
+    width: 330px;
+    height: 50px; 
+    background: black;
+    border-radius: 8px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding:0  23px;
+    z-index: 1;
+}
+
+nav span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100%;
+    background: linear-gradient(45deg, black, #fb4566);
+    border-radius: 24px;
+    transition: .5s;
+}
+
+nav a:nth-child(1):hover~span{
+    left: 0; 
+}
+
+nav a:nth-child(2):hover~span{
+    left: 78px; 
+}
+
+nav a:nth-child(3):hover~span{
+    left: 157px; 
+}
+
+nav a:nth-child(4):hover~span{
+    left: 237px; 
+}
+
+
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100%
+}
+
+ul{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;;
+    font-weight: 700;
+    background: linear-gradient(90deg, black, #fb4566, black,#fb4566, black);
+}
+
+li > a{
+    text-decoration: none;
+}
+
+.nav{
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    font-family: mango;
+    color: white;
+    margin: 0px 0 0 0
+}
+
+.work{
+    font-family: mango;
+    font-size: 100px;
+    text-align: center;
+    padding: 0 0 0 0px;
+    text-shadow: 3px 1px 0 #fb4566;
+}
+
+.Hope{
+    text-align: center;
+    color: #fb4566;
+    padding: 0px 0 0 0;
+    position: relative;
+    font-size: 15px;
+}
+
+.sectionone{
+    border: solid gray;
+    width: 90%;
+    height: 600px;
+    margin: 40px;
+    position: absolute
+}
+
+div>h1{
+    font-size: 70px;
+    font-weight: mango;
+    padding: 0 0 0 30px;
+    position: absolute;
+    text-shadow: 3px 0 0#fb4566;
+    font-family: mango;
+    top: -20px
+}
+
+.design{/*p*/
+    width: 30%;
+    padding: 100px 0 0 30px;
+    text-align: left;
+    color: white;
+    position: absolute;
+}
+
+.ophalia{
+    height: 300px;
+    margin:270px 0 0 30px;
+    display: block;
+    position: absolute;
+}
+
+.logo{
+    padding: 300px 0 0 350px;
+    display: block;
+    float: left;
+    height: 40px
+}
+
+.logo{
+    font-family: mango;
+    font-size: 40px;
+}
+
+.more{
+    background-color: #fb4566;
+    padding: 3px;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ariana{
+    height:550px;
+    float: left;
+    margin: 30px 0px 0 30px;
+    position: absolute
+}
+
+.p{
+    position: relative;
+    float: right;
+    display: block;
+    margin: 30px 0px 0 0;
+    font-family: mango;
+    font-size: 40px;
+    position: relative;
+}
+
+.niall{
+    height: 400px;
+    position: relative;
+    float: right;
+    margin: 0px 0 0 0;
+    display: block; 
+}
+
+#niall{
+    top: 0px;
+    right: 0px;
+    text-align: right;
+    font-size: 35px ;
+    font-family: mango;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*--------------------------------------------------*/
+
+
+.sectiontwo{
+    border: solid gray;
+    width: 90%;
+    height: 600px;
+    margin: 40px;
+    position: absolute;
+    margin-top: 700px;
+}
+
+div>h1{
+    font-size: 70px;
+    font-weight: mango;
+    padding: 0 0 0 30px;
+    position: absolute;
+    text-shadow: 3px 0 0#fb4566;
+    font-family: mango;
+    top: -20px
+}
+
+.design{/*p*/
+    width: 30%;
+    padding: 100px 0 0 30px;
+    text-align: left;
+    color: white;
+    position: absolute;
+}
+
+.ophalia{
+    height: 300px;
+    margin:270px 0 0 30px;
+    display: block;
+    position: absolute;
+}
+
+.logo{
+    padding: 300px 0 0 350px;
+    display: block;
+    float: left;
+    height: 40px
+}
+
+.coming{
+    font-family: mango;
+    font-size: 40px;
+    padding: 350px 0 0 150px
+}
+
+.moree{
+    background-color: #fb4566;
+    padding: 3px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.moreee{
+    background-color: #fb4566;
+    padding: 3px;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -30px;
+}
+
+/*.moreeee{
+    background-color: #fb4566;
+    padding: 3px;
+    margin: 500px 0 0 100px;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}*/
+
+
+.web{
+    height: 550px;
+    margin: -530px 0 0 450px;
+    position:relative;
+    float: left;
+
+}
+
+.pp{
+    position: relative;
+    float: right;
+    margin: -500px 470px 0 0;
+    font-family: mango;
+    font-size: 40px;
+    position: relative;
+}
+
+.niall{
+    height: 400px;
+    position: relative;
+    float: right;
+    margin: -530px 20px 0 0
+}
+
+#niall{
+    top: 410px;
+    right: 330px;
+    text-align: left;
+    font-size: 35px ;
+    font-family: mango;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------*/
+.sectionthree{
+    border: solid gray;
+    width: 90%;
+    height: 600px;
+    margin: 40px;
+    position: absolute;
+    margin-top: 1350px;
+}
+
+div>h1{
+    font-size: 70px;
+    font-weight: mango;
+    padding: 0 0 0 30px;
+    position: absolute;
+    text-shadow: 3px 0 0#fb4566;
+    font-family: mango;
+    top: -20px
+}
+
+.design{/*p*/
+    width: 30%;
+    padding: 100px 0 0 30px;
+    text-align: left;
+    color: white;
+    position: absolute;
+}
+
+.ophalia{
+    height: 300px;
+    margin:270px 0 0 30px;
+    display: block;
+    position: absolute;
+}
+
+.logo{
+    padding: 300px 0 0 350px;
+    display: block;
+    float: left;
+    height: 40px
+}
+
+.logo{
+    font-family: mango;
+    font-size: 40px;
+}
+
+.moree{
+    background-color: #fb4566;
+    padding: 3px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.moreee{
+    background-color: #fb4566;
+    padding: 3px;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -30px;
+}
+
+/*.moreeee{
+    background-color: #fb4566;
+    padding: 3px;
+    margin: 500px 0 0 100px;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}*/
+
+
+.brand{
+    height: 350px;
+    margin: 30px 0 0 130px;
+    position:relative
+}
+
+.p{
+    position: relative;
+    float: right;
+    display: block;
+    padding: 0 450px 0 0;
+    font-family: mango;
+    font-size: 40px;
+    position: relative;
+}
+
+.niall{
+    height: 400px;
+    position: relative;
+    float: right;
+    margin: -530px 20px 0 0
+}
+
+#niall{
+    top: 410px;
+    right: 330px;
+    text-align: left;
+    font-size: 35px ;
+    font-family: mango;
+}
+
+a{
+    text-decoration: none;
+}
+
+.copyright{
+    background-color: #2f2f2f;
+    height: 200px;
+    width: 100%;
+    margin: 2000px 0 0 0;
+
+}
+
+.copy{
+    text-align: center;
+    margin: -150px 0 0 0;
+    font-family: mango;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+   
+}

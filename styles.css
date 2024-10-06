@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'mango';
+    src: url(MangoGrotesque-Regular.ttf);
+
+}
+
+*{
+    color: white;
+}
+
+
+
+
+header{
+    display: flex; 
+    justify-content: center;
+    background: black;
+    align-items: center;
+    box-sizing: border-box;
+    top: 0;
+    font-size: 15px;
+}
+
+nav{ 
+    position: relative;
+    width: 330px;
+    height: 50px; 
+    background: black;
+    border-radius: 8px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding:0  23px;
+    z-index: 1;
+}
+
+nav span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100%;
+    background: linear-gradient(45deg, black, #fb4566);
+    border-radius: 24px;
+    transition: .5s;
+}
+
+nav a:nth-child(1):hover~span{
+    left: 0; 
+}
+
+nav a:nth-child(2):hover~span{
+    left: 78px; 
+}
+
+nav a:nth-child(3):hover~span{
+    left: 157px; 
+}
+
+nav a:nth-child(4):hover~span{
+    left: 237px; 
+}
+
+
+/*----------------------------------------------------*/
+
+
+body{
+    background-color: black;
+    width: 100%; 
+    height: 100vw;
+    max-width: 100%;
+}
+
+.dis{
+    text-align: center;
+    font-size: 20px;
+    color:#fb4566
+}
+
+img{
+    width: 550px;
+    height: 550px;
+    margin: 60px 0;
+    margin-LEFT: 32%;
+    position: absolute;
+    display: block;
+    float: right;
+}
+
+.t{
+    position: relative;
+    float: left;
+    display: block;
+    padding: 180px 0 0 13%;
+    color: white;
+    font-size: 100px;
+    font-family: 'mango';
+    text-align: right;
+}
+
+.Digital{
+    color: white;
+    font-size: 60px;
+    font-family: 'rnd';
+    position: relative;
+    display: block;
+    text-align:left;
+    z-index: 1;
+    margin: 250px 100px 0 0;
+    float: right;
+    font-size: 90px;
+    font-family: mango;
+}
+
+.first{
+    background-color: #000;
+    width: 100%;
+    height: 600px;
+}
+
+.student{
+    font-size: 25px;
+    font-family: mango
+}
+
+
+
+p{
+    color: white;
+    font-family: mango; /*CHYBA*/
+    font-size: 40px;
+    max-width: 60%;
+    text-align: center;
+    padding-left: 20%
+}
+
+.section{
+    color: white;
+    height: 450px;
+    width: 100%;
+    font-family: mango;
+    background-color: none;
+}
+
+.text{
+    font-size: 50px;
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+
+
+
+.section1{
+    color: white;
+    height: 140px;
+    width: 100%;
+    font-family: mango;
+    background-color: #000;
+    margin: 100px 0 0 0;
+    border-width: 10px;
+    background: linear-gradient(45deg, black, black, #fb4566, black, black);
+}
+
+.section2{
+    color: white;
+    height: 140px;
+    width: 100%;
+    font-family: mango;
+    background-color: #000;
+    background: linear-gradient(45deg, black, black, #fb4566, black, black);
+    margin: 100px 0 0 0;
+    border-width: 10px;
+    
+}
+
+.section3{
+    color: white;
+    height: 140px;
+    background-color: #000;
+    backface-visibility: 50%;
+    width: 100%;
+    font-family: mango;
+    border-width: 10px;
+    margin: 100px 0 0 0;
+    box-shadow: 10px 0 0 #fb4566;
+    background: linear-gradient(45deg, black, black, #fb4566, black, black);
+}
+   
+    
+
+.text1{
+    font-size: 100px;
+    width: 100%;
+    text-overflow: ellipsis;
+    color: black;
+    text-shadow:3px 0 0 #2f2f2f;
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+    
+
+.copyright{
+    background-color: #2f2f2f;
+    height: 200px;
+    width: 100%;
+    margin: 100px 0 0 0;
+
+}
+
+.copy{
+    text-align: center;
+    margin: -150px 0 0 0;
+    font-family: mango;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+   
+}
